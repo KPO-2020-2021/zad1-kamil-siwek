@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 
-double Dodaj();
+double Dodaj(double Skl1, double Skl2); // należy podać argumenty funkcji (double Skl1, double Skl2)
 
 
-int main( )
+int main()
 {
   double  Skl1 = 2.0,  Skl2 = 2.0;
   double  Wynik = Dodaj(Skl1,Skl2);

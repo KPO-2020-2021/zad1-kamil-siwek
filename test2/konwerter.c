@@ -27,8 +27,8 @@ void KonwertujNapis( char *Napis, int *TabKodow, char *TabZnakow, int Rozmiar)
 int main()
 {
   int  IloscKodow = 10;
-  int  Rozmiar = IloscKodow * sizeof('¶');
-
+  int  Rozmiar = IloscKodow * sizeof(int); // zamians sizeof('¶') musi byæ sizeof(int)
+  
   int  *TabKodow = (int*)malloc(Rozmiar);
   char *TabZnakow = (char*)malloc(IloscKodow*sizeof(char)); 
   char *Napis = strdup("Cze¶æ ¦wiecie!!! ¯yczê mi³ego dnia.");

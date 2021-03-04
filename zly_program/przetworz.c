@@ -125,7 +125,7 @@ int IloscWielkichLiter(char *Tekst)
 
 int main()
 {
-  char *Napis = "Jak dobrze jest wstac skoro swit. Jutrzenki blask ...";
+  char Napis[] = "Jak dobrze jest wstac skoro swit. Jutrzenki blask ..."; // zmiana " *Napis " na " Napis[] "
   int IloscSpacji;
   int DlugoscSlowaXXX;
   int IloscMaLiter = 0;

@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <math.h>
+#include <math.h> //przy kompliacji "gcc rownanie.c -lm" należy dodać -lm. A przy "g++ rownianie.c" nie trzeba. 
 
 
 struct TrojmianKw {
